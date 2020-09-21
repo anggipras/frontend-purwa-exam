@@ -39,13 +39,6 @@ function History(props) {
       .then((res)=> {
           setHistory(res.data)
           console.log(res.data)
-          Axios.get(`${API_URL}/transactionsdetails?transactionId=${res.data[0].id}&_expand=product`)
-            .then((res2)=> {
-                setTheDetails(res2.data)
-                console.log(res2.data)
-            }).catch((err)=> {
-                console.log(err)
-            })
       }).catch((err)=> {
           console.log(err)
       })
@@ -64,6 +57,13 @@ function History(props) {
     const onDetailsClick= (index)=>{
       setDetails(index)
       setModalDetails(true)
+      Axios.get(`${API_URL}/transactionsdetails?transactionId=${history[index].id}&_expand=product`)
+        .then((res2)=> {
+            setTheDetails(res2.data)
+            console.log(res2.data)
+        }).catch((err)=> {
+            console.log(err)
+        })
     }
 
     const renderDetails = () => {
