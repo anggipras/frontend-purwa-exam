@@ -1,0 +1,54 @@
+.words {
+    position: relative;
+    top: -60%;
+    margin-left: 33%;
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 7px 5px rgb(80, 80, 80)
+}
+
+.wordsLogin {
+    position: relative;
+    top: -70%;
+    margin-left: 33%;
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 7px 5px rgb(80, 80, 80)
+}
+
+/* city preview start */
+.city {
+    font-size: 17px;
+}
+
+.city .mtp {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.info {
+    width: 91%;
+    height: 70px;
+    position: relative;
+    top: -50px;
+    left: 16px;
+}
+
+.cityname {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.explanation {
+    font-size: 15px;
+}
+
+.cityimeji{
+    transition: 500ms;
+}
+.cityimeji:hover{
+    transform: scale(1.05);
+}
+/* city preview end */

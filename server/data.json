@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "username": "anggi",
+      "password": "123456",
+      "email": "anggi@gmail.com",
+      "role": "user",
+      "id": 1
+    },
+    {
+      "username": "admin",
+      "password": "root",
+      "email": "admin@gmail.com",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "username": "dino",
+      "password": "Dino123",
+      "email": "dino123@gmail.com",
+      "role": "user",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "namatrip": "LOMBOK",
+      "gambar": "https://static.asiawebdirect.com/m/bangkok/portals/indonesia-holidays-com/homepage/maps/lombok-island/pagePropertiesImage/lombok.jpg",
+      "tanggalmulai": 1601510400000,
+      "tanggalberakhir": 1602115200000,
+      "harga": "5000000",
+      "deskripsi": "Full trip: include two-way ticket and hotel, breakfast and dinner. Exclude lunch",
+      "id": 1
+    },
+    {
+      "namatrip": "BALI",
+      "gambar": "https://thumbnails.expedia.com/cxedRWjiVgd3W8bj4fVS6mWxih8=/800x533/a.cdn-hotels.com/gdcs/production128/d1581/5051d8fd-8069-4c18-b58a-b12af862bcbc.jpg",
+      "tanggalmulai": 1602201600000,
+      "tanggalberakhir": 1602460800000,
+      "harga": "1500000",
+      "deskripsi": "Full Trip: one-way ticket and breakfast",
+      "id": 2
+    },
+    {
+      "namatrip": "SURABAYA",
+      "gambar": "https://img.alinea.id/img/content/2020/06/09/77649/warga-surabaya-diminta-disiplin-terapkan-protokol-kesehatan-mInPYllYu5.jpg",
+      "tanggalmulai": 1600560000000,
+      "tanggalberakhir": 1600819200000,
+      "harga": "1000000",
+      "deskripsi": "Full trip: one-way ticket plus breakfast and lunch",
+      "id": 3
+    },
+    {
+      "namatrip": "YOGYAKARTA",
+      "gambar": "https://asset.kompas.com/crops/wirfPQ2CvlOiTr9yyK9VwQDfD9Q=/0x0:1000x667/750x500/data/photo/2020/04/12/5e931d94dc081.jpg",
+      "tanggalmulai": 1600992000000,
+      "tanggalberakhir": 1601337600000,
+      "harga": "700000",
+      "deskripsi": "Full trip: Hotel and two-way tickets plus breakfast / dinner",
+      "id": 4
+    },
+    {
+      "namatrip": "MALANG",
+      "gambar": "https://www.javatravel.net/wp-content/uploads/2020/08/Tempat-Wisata-Batu-Malang.jpg",
+      "tanggalmulai": 1600560000000,
+      "tanggalberakhir": 1600992000000,
+      "harga": "1200000",
+      "deskripsi": "Full trip: two-way tickets plus hotel",
+      "id": 5
+    }
+  ],
+  "carts": [
+    
+  ],
+  "transactions": [
+    
+  ],
+  "transactionsdetails": [
+    
+  ]
+}

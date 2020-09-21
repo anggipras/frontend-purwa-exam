@@ -1,0 +1,8 @@
+.button-orange{
+    /* background-color: #ff8f54 !important; */
+    color: black !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+    width: 150px !important;
+    background: linear-gradient(-45deg, #6bedfe 30%, #a6ff53 90%) !important
+}
